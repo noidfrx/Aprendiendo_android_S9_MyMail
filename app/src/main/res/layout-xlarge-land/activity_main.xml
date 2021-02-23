@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false">
+
+    <fragment
+        android:id="@+id/correosFragment"
+        android:name="com.noidfrx.aprendiendo_android_s9_mymail.fragments.CorreosFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="40"
+        tools:layout="@layout/fragment_correos"/>
+
+    <fragment
+        android:id="@+id/correosInsideFragment"
+        android:name="com.noidfrx.aprendiendo_android_s9_mymail.fragments.CorreosInsideFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="60"
+        tools:layout="@layout/fragment_correos_inside"/>
+</LinearLayout>
