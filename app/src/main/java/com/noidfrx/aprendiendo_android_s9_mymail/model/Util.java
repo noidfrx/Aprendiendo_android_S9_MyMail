@@ -21,7 +21,7 @@ public class Util {
         return coloresDisponibles[numeroAleatorio];
     }
 
-    public static List<Mail> getDummyData() {
+    public static ArrayList<Mail> getDummyData() {
         return new ArrayList<Mail>() {{
             add(new Mail("Presupuesto 2017", "Hola Alejandro, este es el presupuesto para el año 2017 del que mencionaste en la reunión de ayer. Está en formato PDF, ya me dices que te parece. Un Saludo", "antonio@gmail.com"));
             add(new Mail("Cena Empresa", "Queridos amigos, la cena de empresa de este año será en el mismo restaurante que los años pasados, sin embargo la hora será distinta, empieza sobre las 8 de la tarde. Espero verte allí, Saludos.", "empresa@gmail.com"));

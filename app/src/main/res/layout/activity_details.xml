@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.MainActivity"
+    tools:context=".activities.DetailsActivity"
     android:baselineAligned="false">
 
     <fragment
         android:id="@+id/correosInsideFragment"
-        android:name="com.noidfrx.aprendiendo_android_s9_mymail.fragments.CorreosFragment"
-        android:layout_width="0dp"
+        android:name="com.noidfrx.aprendiendo_android_s9_mymail.fragments.CorreosInsideFragment"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        tools:layout="@layout/fragment_correos"/>
+        tools:layout="@layout/fragment_correos_inside" />
 </LinearLayout>

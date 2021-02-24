@@ -18,6 +18,7 @@
             android:layout_width="36dp"
             android:layout_height="36dp"
             android:background="@drawable/rounded_corner"
+            android:gravity="center"
             android:padding="10dp"
             android:text="TextView" />
 
